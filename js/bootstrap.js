@@ -14,6 +14,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
         var a = document.createElement("bootstrap"),
             b = {
                 WebkitTransition: "webkitTransitionEnd",
+                
                 MozTransition: "transitionend",
                 OTransition: "oTransitionEnd otransitionend",
                 transition: "transitionend"
