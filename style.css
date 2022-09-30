@@ -703,7 +703,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-     width: auto;
+     width: fit-content;
 }
 
 .social {
@@ -748,6 +748,9 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+     /* width: 100%;  */
+     
+    
 }
 
 .portfolio-row {
@@ -764,6 +767,12 @@ h4 {
     background-color: rgba(23,23,23,0.8);
     padding: 40px 40px 40px 40px;
 }
+ 
+.img-mince {
+    width: 100%;
+}
+
+
 
 .bold-link {
     font-weight: 900;
@@ -845,6 +854,19 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
+.col-sm-4 ul li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 @media (max-width: 1024px) {
     .bloc {
