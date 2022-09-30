@@ -703,7 +703,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-    width: auto;
+     width: auto;
 }
 
 .social {
@@ -760,7 +760,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    /* background-color: rgba(165, 147, 99, 0.7); */
+    background-color: rgba(23,23,23,0.8);
     padding: 40px 40px 40px 40px;
 }
 
