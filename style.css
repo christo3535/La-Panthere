@@ -1076,6 +1076,12 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .social {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+    }
 }
 .row h1 {
     font-size: 30px;
