@@ -748,7 +748,16 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    /* background-color: #682608; */
 }
+
+/* .tc-color{
+     background-color:#1C1C1C ; 
+} */
+/* 
+.row h2 {
+    color: #FFF!important;
+} */
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -804,6 +813,8 @@ h4 {
 
 
 
+
+
 .tc-white {
       color: #F3976C!important;   
     color: #000000;
@@ -851,13 +862,21 @@ h4 {
 }
 
 .bg-banniere {
+    
     background-image: url("img/agence-la-panthere.webp");
     
 }
 
+
+
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
+.bg-banniere .d-bloc{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url("img/agence-la-panthere.webp");
+}
+
 
 .col-sm-4 ul li {
     text-decoration: none;
