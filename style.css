@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-     background: url("img/texture-paper.webp"); 
+        /* background: url("img/texture-paper.webp");     */
     background-size: 280px 280px;
      opacity: 1; 
 }
@@ -755,9 +755,15 @@ h4 {
      background-color:#1C1C1C ; 
 } */
 /* 
-.row h2 {
+.row .tc-color {
     color: #FFF!important;
+}   */
+/* 
+.row h2{
+
+    background-color: #445397;
 } */
+ 
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -858,7 +864,7 @@ h4 {
 } 
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.webp");
+     /* background-image: url("img/lines-h2-bg.webp");  */
 }
 
 .bg-banniere {
