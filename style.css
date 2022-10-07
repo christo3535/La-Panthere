@@ -371,7 +371,7 @@ a:hover {
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+         -webkit-transform: translateY(-50%); 
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -864,7 +864,7 @@ h4 {
 } 
 
 .bg-lines-h2-bg {
-     /* background-image: url("img/lines-h2-bg.webp");  */
+      background-image: url("img/lines-h2-bg.webp");  
 }
 
 .bg-banniere {
@@ -971,7 +971,7 @@ h4 {
 
 @media (max-width: 767px) {
     .page-container {
-        overflow-x: hidden;
+         overflow-x: hidden; 
         position: relative;
     }
     h1,
